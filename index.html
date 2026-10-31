@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Click Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+    <span id="theme-icon">🌙</span>
+  </button>
+
+  <!-- Main Counter Container -->
+  <main class="card">
+    <h2 class="title">Click Counter</h2>
+    <div class="counter-display" id="counter">0</div>
+
+    <div class="button-group">
+      <button id="click-btn" class="btn btn-primary">Click Me!</button>
+      <button id="reset-btn" class="btn btn-secondary">Reset</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
